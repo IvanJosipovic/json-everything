@@ -1,0 +1,58 @@
+.width-auto {
+    width: auto;
+}
+
+.form-control {
+	background: rgba(127, 127, 127, 0.2);
+	color: rgb(175, 176, 177);
+	border-color: rgba(127, 127, 127, 0.2);
+}
+
+	.form-control:focus {
+		background: rgba(127, 127, 127, 0.2);
+		color: rgb(175, 176, 177);
+		border-color: rgba(127, 127, 127, 0.2);
+		box-shadow: 0 0 0 0.2rem rgba(80, 10, 136, 0.25);
+	}
+
+select.form-control {
+	appearance: auto;
+}
+
+	select.form-control * {
+		background: #2f2f31;
+	}
+
+.table {
+	color: rgb(175, 176, 177);
+}
+
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.height-fit-content {
+  height: fit-content;
+}
+
+html[data-bs-theme="light"] .form-control {
+	background: white;
+	color: rgb(33, 37, 41);
+	border-color: rgba(0, 0, 0, 0.25);
+}
+
+	html[data-bs-theme="light"] .form-control:focus {
+		background: white;
+		color: rgb(33, 37, 41);
+		border-color: rgba(80, 10, 136, 0.5);
+		box-shadow: 0 0 0 0.2rem rgba(80, 10, 136, 0.15);
+	}
+
+	html[data-bs-theme="light"] select.form-control * {
+		background: white;
+	}
+
+html[data-bs-theme="light"] .table {
+	color: rgb(33, 37, 41);
+}
